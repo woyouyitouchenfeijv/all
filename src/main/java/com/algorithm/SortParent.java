@@ -1,4 +1,4 @@
-package com.suanfa;
+package com.algorithm;
 
 /**
  * @Description

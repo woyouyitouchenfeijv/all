@@ -1,4 +1,4 @@
-package com.suanfa.primary;
+package com.algorithm.primary;
 
 
 /**

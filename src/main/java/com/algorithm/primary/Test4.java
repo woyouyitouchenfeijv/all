@@ -1,6 +1,6 @@
-package com.suanfa.primary;
+package com.algorithm.primary;
 
-import com.suanfa.SortParent;
+import com.algorithm.SortParent;
 
 /**
  * @Description

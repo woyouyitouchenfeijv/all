@@ -1,4 +1,4 @@
-package com.suanfa.primary;
+package com.algorithm.primary;
 
 /**
  * @Description
@@ -47,6 +47,7 @@ public class Test8 {
         }
         return head;
     }
+
 
 
     /**
@@ -115,7 +116,7 @@ public class Test8 {
             System.out.print(myNode2.value+",");
             myNode2 = myNode2.next;
         }*/
-        Node<Integer> myNode = getMyNode(100, 5);
+        Node<Integer> myNode = getMyNode(5, 5);
         soutNode(myNode);
         System.out.println("=====");
         Node node = changeNode(myNode);
