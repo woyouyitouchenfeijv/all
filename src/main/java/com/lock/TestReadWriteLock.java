@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
@@ -16,6 +17,7 @@ public class TestReadWriteLock {
 
     public static String getMap(int key){
         ReadWriteLock lock = new ReentrantReadWriteLock();
+        ReentrantLock reentrantLock = new ReentrantLock();
         Lock readLock = lock.readLock();
         String s = null;
         readLock.lock();
