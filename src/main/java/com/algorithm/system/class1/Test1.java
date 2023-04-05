@@ -1,10 +1,17 @@
-package com.algorithm.system;
+package com.algorithm.system.class1;
 
 /**
  * @Description
  * @Date 2023/2/7
  */
 public class Test1 {
+
+
+
+
+
+
+
 
 
     public int getKNum(int[] arr , int k , int m){

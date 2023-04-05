@@ -332,15 +332,15 @@ public class Test11 {
          * PriorityQueue - 排序由大到小出
          */
 
-        public static void main(String[] args) {
-            PriorityQueue<Object> objects = new PriorityQueue<>();
-            Queue a = new LinkedList<Integer>();
-            a.add(1);
-            a.add(2);
-            a.add(0);
-            while (!a.isEmpty())
-                System.out.println(a.poll());
-        }
+//        public static void main(String[] args) {
+//            PriorityQueue<Object> objects = new PriorityQueue<>();
+//            Queue a = new LinkedList<Integer>();
+//            a.add(1);
+//            a.add(2);
+//            a.add(0);
+//            while (!a.isEmpty())
+//                System.out.println(a.poll());
+//        }
     }
 
 }
