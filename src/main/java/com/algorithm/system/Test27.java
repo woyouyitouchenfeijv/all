@@ -10,8 +10,6 @@ public class Test27 {
 
 
     //两个数组s1 和 s2，s2在s1里的第几个位置
-
-
     public static int process(String s1, String s2) {
         if (s1 == null || s2 == null || s2.length() > s1.length() || s2.length() == 0) {
             return -1;
