@@ -3,6 +3,7 @@ package com.tools;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Date;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -10,9 +11,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * @Description
  * @Date 2023/4/10
+ * 
  *
- * 测网速的小工具
- *
+ * 
  */
 public class MeasureDownloadSpeedUtils {
 
@@ -60,6 +61,11 @@ public class MeasureDownloadSpeedUtils {
     }
 
     public static void main(String[] args) {
+
+        Date date = new Date(1649359874);
+        System.out.println(date);
+
+
         String urlStr = "https://www.baidu.com";
         int numThreads = 10;
         double sumSpeed = 0;
